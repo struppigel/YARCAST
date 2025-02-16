@@ -180,7 +180,6 @@ def main():
         epilog="")
     
     parser.add_argument('sample', help="Sample to analyse")
-    parser.add_argument('-json', '--json', help="use JSON as output type", action="store_true")
     parser.add_argument('-s', '--strings', help="show matched string instances", action="store_true")
     parser.add_argument('-a', '--author', help="show author", action="store_true")
     parser.add_argument('-ab', '--auto_blocklist', help="automatically blocklist problematic rules", action="store_true")

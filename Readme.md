@@ -2,6 +2,8 @@
 
 This is a command line tool that simplifies collecting and scanning with public YARA repositories.
 
+![scanning output](https://github.com/struppigel/YARCAST/blob/main/img/scan.png)
+
 The yarscan collector fetches and compiles YARA rules based on a list of public repositories or local signature folders. It makes sure to avoid duplicates and exclude rules that have very small patterns. From experience the performance will be unbearable without exclusion of these rules.
 
 The yarscan scanner will use all the collected yara rules to scan a file or files in a folder and display the results sorted by repository.
@@ -17,6 +19,8 @@ Both scripts make use of a blocklist, where you can put rules that annoy you due
 Firstly, fill in a list of public repositories or local folders with YARA rules (see below). 
 
 Then run `python yarcast_collect.py` and wait. 
+
+![rule collection output](https://github.com/struppigel/YARCAST/blob/main/img/collect.png)
 
 ### full_checkout_repos.csv
 

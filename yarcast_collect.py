@@ -68,14 +68,6 @@ sparse_checkout_repos = read_sparse_checkout_repos()
 # repo_dir : local_path
 local_signature_folders = read_local_signature_folders()
 
-#def hook(l=None):
-#	if l:
-#		locals().update(l)
-#		import IPython
-#		IPython.embed(banner1='', confirm_exit=False)
-#		exit(0)
-
-
 def readfile(afile):
     with open(afile, 'r') as f:
         return f.read()
