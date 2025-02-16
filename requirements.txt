@@ -1,0 +1,4 @@
+plyara
+yara-python
+gitpython
+rich
